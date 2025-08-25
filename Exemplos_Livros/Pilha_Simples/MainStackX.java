@@ -1,4 +1,5 @@
-package Exemplos_Livros;
+package Exemplos_Livros.Pilha_Simples;
+
 
 public class MainStackX {
     public static void main(String[] args) {
