@@ -7,7 +7,7 @@ public class StackX {
     private int top; //define o top da pilha
 
     public StackX(int s){ //netódos construtor
-        int maxSize = s; //definee o tamanho da pilha
+        int maxSize = s; //define o tamanho da pilha
         stackArray = new long[maxSize]; //cria a pilha
         top = -1; //indica que a pilha está vazia
     }
