@@ -17,7 +17,7 @@ public class StackX {
     }
 
     public long pop(){
-        return stackArray[top-1];
+        return stackArray[top--];
     }
 
     public long peek(){
