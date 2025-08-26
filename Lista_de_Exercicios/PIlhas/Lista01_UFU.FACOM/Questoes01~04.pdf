@@ -1,0 +1,38 @@
+1. O que é e para que serve uma pilha?
+
+Resposta: Uma pilha é uma forma de estrutura de organização de dados, onde o último dados a entrar é o primeiro a sair (LIFO). Seu objetivo é organizar os dados
+em uma forma linear, onde são empilhados, e para que se alcance um dado que não esteja no topo da pilha, seja preciso desempilhar os dados superiores ao
+que se deseja.
+
+2. Em quais situações uma pilha pode ser utilizada?
+
+Resposta: Uma pilha pode ser utilizada para empilhar dados de uma calculadora, ajudar a resolver problemas aritméticos, como parenteses, colchetes e chaves, 
+ou organizar dados em utilizações práticas (livros, pedidos de um restaurante, etc), além de poder ser utilizada em jogos, como o xadrez, onde para retornar um lance
+seja necessário "desfazer / desempilhar" o último lance.
+
+3. Suponha que uma pilha possua 4 valores na seguinte ordem: 1, 2, 3 e 4. Qual seria a sequência correta de operações de inserção (I) e eliminação (E) para se 
+obter os registros na ordem 2 4 3 1?
+
+Resposta: Ordem original: 1, 2, 3, 4                
+Desempilhar (E): 1º: 4, 2º: 3, 3º: 2, 4º: 1
+Empilhar (I): 1º: 2, 2º: 4, 3º: 3, 4º: 1
+
+4. Uma sequência de operações inserção (I) e eliminação (E) numa pilha é dita válida se ela tem igual número de Is e Es e todas as operações podem ser 
+efetuadas na pilha, ou seja, a eliminação só pode acontecer se a pilha não estiver vazia. Formule uma regra que permita determinar se uma sequência (
+ex: IIEE) é válida ou não.
+
+Reposta: Sabendo que o desempilhamento (E), apenas pode acontecer caso a pilha não esteja vazia. E tanto o empilhar e desempilha possuam o mesmo número de 
+acessos. Com isso definido podemos ter o exemplo de pilha de alguns livros:
+
+1º 1984
+2º Admirável Mundo Novo
+
+Até aqui empilhei dois livos (I), onde o segundo livro (Admirável Mundo Novo), é o topo. Agora se quero desempilhar duas vezes consecultivas, sem empilhar
+mais nada, então terei uma pilha vazia:
+
+1º -
+2º -
+
+Partindo do que foi dito no enunciado, temos iguais números de empilhamentos e desempilhamentos, o que torna a sequência válida, e no fim a pilha vazia. caso
+ocorrer mais um desempilhar, sem que seja empilhado nenhum livro, a sequência estaria inválida, pois não é possível desempilhar de uma pilha que já está 
+vazia.
