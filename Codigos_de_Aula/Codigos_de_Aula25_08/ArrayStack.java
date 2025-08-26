@@ -1,5 +1,8 @@
 package Codigos_de_Aula.Codigos_de_Aula25_08;
 
+//desafio: inverter a ordem em que é feito pop na pilha (pilha estática invertida)
+//desafio: pilha estática dupla
+
 public class ArrayStack<T> implements Stackable<T> { //classe genérica: pode armazenar qualquer tipo de onjeto.
     private T[] stack; //array que guarda os elementos da pilha
     private int topPointer; //indica o topo da pilha
