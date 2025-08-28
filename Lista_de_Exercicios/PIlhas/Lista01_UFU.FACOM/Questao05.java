@@ -6,13 +6,13 @@ public class Questao05<T> {
     public static boolean ehFormatoXY(String letra){
         if (letra == null) return false;
 
-        int tamanho = letra.lengh();
+        int tamanho = letra.length();
         if (tamanho == 0) return false;
         if (tamanho % 2 != 0) return false;
 
     int meio = tamanho / 2;
 
-    ArrayStack<Character> pilha = new ArrayStack<>(meio);
+    java.util.Stack<Character> pilha = new java.util.Stack<>();
 
     for (int i = 0; i < meio; i++){
         pilha.push(letra.charAt(i));
@@ -38,7 +38,7 @@ public class Questao05<T> {
         };
 
         for (String letra : casos){
-            System.out.println("%letra: %formato%tamanho", letra, ehFormatoXY(letra));
+            System.out.println("letra: " + letra + " formato: " + ehFormatoXY(letra) + " tamanho: " + letra.length());
         }
     }
 }
