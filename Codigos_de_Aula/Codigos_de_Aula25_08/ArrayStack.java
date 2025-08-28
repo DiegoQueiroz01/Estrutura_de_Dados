@@ -28,7 +28,7 @@ public class ArrayStack<T> implements Stackable<T> { //classe genérica: pode ar
         stack[topPointer] = book;
     }
 
-    //se a pilha está vazia imprime a mensagem, do contrário remo o item do topo, e guarda em temp, topPointer retorna o item removido
+    //se a pilha está vazia imprime a mensagem, do contrário remove o item do topo, e guarda em temp, topPointer retorna o item removido
     @Override
     public T pop() {
         if (isEmpty()) {
