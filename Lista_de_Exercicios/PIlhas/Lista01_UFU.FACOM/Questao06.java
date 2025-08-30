@@ -5,7 +5,6 @@ A saı́da deve ser:
 ETSE OICÍCREXE É OTIUM LICÁF
 */
 
-package Lista_de_Exercicios.PIlhas.Lista01_UFU.FACOM;
 
 public class Questao06 {
     public static String inverterPalavras(String texto){
@@ -14,7 +13,7 @@ public class Questao06 {
         StringBuilder saida = new StringBuilder();
         int tamanho = texto.length();
 
-        ArrayStack<Character> pilha = new ArrayStack<>(tamanho);
+        java.util.Stack<Character> pilha = new java.util.Stack<>();
 
         for (int i = 0; i < tamanho; i++){
             char letra = texto.charAt(i);
