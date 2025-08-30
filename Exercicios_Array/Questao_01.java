@@ -11,4 +11,15 @@ public class Questao_01 {
     numeros[3] = 4;
     numeros[4] = 5;
     }
+
+    public void imprimirArray(){
+        for (int i = 0; i<numeros.length; i++){
+            System.out.println(numeros[i]);
+        }
+    }
+
+    public static void main(String[] args) {
+        Questao_01 questao01 = new Questao_01();
+        questao01.imprimirArray();
+    }
 }
