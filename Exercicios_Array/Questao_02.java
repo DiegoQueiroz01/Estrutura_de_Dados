@@ -1,3 +1,4 @@
+//2. Faça um programa em Java que leia um vetor de 10 números reais e mostre-os na ordem inversa.
 package Exercicios_Array;
 
 public class Questao_02 {

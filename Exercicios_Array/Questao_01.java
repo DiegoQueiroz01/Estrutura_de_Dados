@@ -1,3 +1,4 @@
+//1. Faça um programa em Java que leia um vetor de 5 números inteiros e mostre-os.
 package Exercicios_Array;
 
 public class Questao_01 {
