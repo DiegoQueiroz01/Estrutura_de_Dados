@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class Questao_03 {
     float [] nota = new float[4];
     Scanner scanner = new Scanner(System.in);    
-    float soma, media;
+    float media, soma = 0;
 
-    public void Questao03(){
+    public Questao_03(){
         for (int i = 0; i < nota.length; i++){
             System.out.println("Digite sua nota: " + (i + 1));
             float nota = scanner.nextFloat();
@@ -22,6 +22,12 @@ public class Questao_03 {
         }
     float media = soma / 4;
         System.out.println("Média: " + media);
+        if(media >= 7){
+            System.out.println("Aprovado :)");
+        }
+        else{
+            System.out.println("Reprovado :(");
+        }
     }
 
     public static void main(String[] args){
