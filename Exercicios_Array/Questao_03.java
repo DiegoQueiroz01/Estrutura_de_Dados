@@ -11,8 +11,9 @@ public class Questao_03 {
     public void Questao03(){
         for (int i = 0; i < nota.length; i++){
             System.out.println("Digite sua nota: " + (i + 1));
-            nota[i] = scanner.nextFloat();
-            soma = soma + nota[i];
+            float nota = scanner.nextFloat();
+            this.nota[i] = nota;
+            soma = soma + nota;
         }
     }
     public void imprimirArray(){
